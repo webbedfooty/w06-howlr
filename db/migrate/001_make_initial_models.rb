@@ -10,8 +10,8 @@ class MakeInitialModels < ActiveRecord::Migration
       t.string :text, null: false
       t.string :image, null: false
       t.integer :likes
-      t.timestaps :created_at
-      t.timestaps :updated_at
+      t.timestamps :created_at
+      t.timestamps :updated_at
     end
   end
 end
