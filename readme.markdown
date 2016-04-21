@@ -40,17 +40,17 @@ the designer comps. Make sure to read the descriptions for each comp so you know
 what to expect (the descriptions are all the way at the bottom).
 
 1. We should be able to add wolves to our pack.
-  + [New Wolf View](http://imgur.com/OFBuyLU)
-  + [New Wolf View with Error Message](http://imgur.com/x5Cx6fl)
+    + [New Wolf View](http://imgur.com/OFBuyLU)
+    + [New Wolf View with Error Message](http://imgur.com/x5Cx6fl)
 2. We should be able to see the wolves in our pack.
-  + [Pack View](http://imgur.com/6ZPiNRP)
+    + [Pack View](http://imgur.com/6ZPiNRP)
 3. We should be able to post a howl for any wolf in our pack.
-  + [New Howl Form - Empty](http://imgur.com/yPibmEz)
-  + [New Howl Form - Wolf `select` demonstration](http://imgur.com/ND3Sgwo)
-  + [New Howl Form - Filled In](http://imgur.com/KajeWIT)
-  + [New Howl Form with Errors](http://imgur.com/GnyYndS)
+    + [New Howl Form - Empty](http://imgur.com/yPibmEz)
+    + [New Howl Form - Wolf `select` demonstration](http://imgur.com/ND3Sgwo)
+    + [New Howl Form - Filled In](http://imgur.com/KajeWIT)
+    + [New Howl Form with Errors](http://imgur.com/GnyYndS)
 4. We should be able to see the 5 most recently posted howls.
-  + [Howls view](http://imgur.com/0yfw128)
+    + [Howls view](http://imgur.com/0yfw128)
 
 ([see the full imgur gallery with all comps](http://imgur.com/a/hcsqT))
 
@@ -71,7 +71,8 @@ looking and acting the way you want it.
 
 1. I've included Bootstrap for you, but you don't need to use Bootstrap. You can
    remove it from `app/views/layout.erb` if you'd like. Everything I've done
-   here can be recreated with Bootstrap and some ingenuity.
+   here can be recreated with Bootstrap and some ingenuity... and a
+   not-insignificant amount of hard work.
 2. This application was drawn by someone who might or might not have any sense
    of what is easy or possible. Try as hard as you can to faithfully recreate
    the spirit of the drawings and the functionality of the application, and work
