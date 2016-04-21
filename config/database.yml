@@ -4,13 +4,10 @@ development:
   database: 'week-six-howlr'
   encoding: 'utf8'
   pool: 5
-  username: 'patrick'
-  password: 'patrick'
+
 test:
   host: 'localhost'
   adapter: 'postgresql'
   database: 'week-six-howlr-test'
   encoding: 'utf8'
   pool: 5
-  username: 'patrick'
-  password: 'patrick'
