@@ -40,6 +40,7 @@ the designer comps. Make sure to read the descriptions for each comp so you know
 what to expect (the descriptions are all the way at the bottom).
 
 1. We should be able to add wolves to our pack.
+    + [New Wolf form - Blank](http://imgur.com/cR2pUSM)
     + [New Wolf View](http://imgur.com/OFBuyLU)
     + [New Wolf View with Error Message](http://imgur.com/x5Cx6fl)
 2. We should be able to see the wolves in our pack.
