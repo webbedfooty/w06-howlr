@@ -20,6 +20,6 @@ end
 
 # INDEX
 get "/howls" do
-  @howls = Howl.order(:name)
+  @howls = Howl.order(:text)
   erb :"howls/index"
 end
