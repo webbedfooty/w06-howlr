@@ -1,9 +1,6 @@
 <ol>
   <% @wolves.each do |w| %>
     <li><a href="/wolves/<%= w.id %>"><%= w.name %></a></li>
-      <% @howls.each do |h| %>
-        <li><a href="/howls/<%= h.id %>"><%= h.wolf_id %></a></li>
-      <% end %>
   <% end %>
 </ol>
 <p><a href="/">Back Home</a></p>

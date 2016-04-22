@@ -6,3 +6,5 @@
 # For example:
 #
 # Insect.create!(name: "Fuzzy Mantis", description: "Really Fierce")
+Wolf.create!(name: "Wolfy McWolferson",image: "image link goes here", bio: "I like big wolves and I cannot lie")
+Howl.create!(text: "What you talkin' bout Wolf!", wolf_id: "1")
