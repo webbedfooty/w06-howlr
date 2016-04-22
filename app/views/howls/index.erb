@@ -1,1 +1,6 @@
-# Howl Index
+<ol>
+  <% @howls.each do |h| %>
+    <li><a href="/howls/<%= h.id %>"><%= h.wolf_id %></a></li>
+  <% end %>
+</ol>
+<p><a href="/">Back Home</a></p>

@@ -1,1 +1,18 @@
-# Wolf New 
+<form action="/wolves" method="post">
+  <div class="form-group">
+    Howlr Name:
+    <input type="text" class="form-control" name="name" value="<%= @wolf.name %>">
+  </div>
+  <div class="form-group">
+    Image Link:
+    <input type="text" class="form-control" name="image" value="<%= @wolf.image %>">
+  </div>
+  <div class="form-group">
+    Short Bio:
+    <input type="text" class="form-control" name="bio" value="<%= @wolf.bio %>">
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Join Pack" class="btn btn-default">
+  </div>
+</form>
+<p><a href="/wolves">Back to Wolves</a></p>
