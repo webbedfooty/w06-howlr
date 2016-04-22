@@ -17,12 +17,8 @@ ActiveRecord::Schema.define(version: 2) do
   enable_extension "plpgsql"
 
   create_table "howls", force: :cascade do |t|
-    t.string   "text",       null: false
-    t.string   "image",      null: false
-    t.integer  "wolf_id"
-    t.integer  "likes"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string "text",  null: false
+    t.string "image", null: false
   end
 
   create_table "wolves", force: :cascade do |t|
