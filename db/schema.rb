@@ -19,15 +19,16 @@ ActiveRecord::Schema.define(version: 2) do
   create_table "howls", force: :cascade do |t|
     t.string   "text",       null: false
     t.string   "image",      null: false
+    t.integer  "wolf_id"
     t.integer  "likes"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "wolves", force: :cascade do |t|
-    t.string  "name",        null: false
-    t.string  "image",       null: false
-    t.string  "description", null: false
+    t.string  "name",    null: false
+    t.string  "image",   null: false
+    t.string  "bio",     null: false
     t.integer "howl_id"
   end
 
