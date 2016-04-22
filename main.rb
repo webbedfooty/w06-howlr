@@ -18,4 +18,3 @@ get "/pry" do
   binding.pry
   redirect to("/")
 end
-
