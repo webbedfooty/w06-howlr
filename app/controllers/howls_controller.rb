@@ -19,7 +19,14 @@ end
 
 
 # INDEX
-get "/howls" do
+get "/howls/index" do
   @howls = Howl.order(:text)
   erb :"howls/index"
+end
+
+# SHOW
+get "/howls/:id" do
+  @howl = Howl.find_by_id(params['id'])
+
+erb :"howls/show"
 end

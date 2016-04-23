@@ -7,4 +7,9 @@
 #
 # Insect.create!(name: "Fuzzy Mantis", description: "Really Fierce")
 Wolf.create!(name: "Wolfy McWolferson",image: "image link goes here", bio: "I like big wolves and I cannot lie")
-Howl.create!(text: "What you talkin' bout Wolf!", wolf_id: "1")
+Wolf.create!(name: "Friday",image: "image link", bio: "wolves and I cannot lie")
+Wolf.create!(name: "Sunday",image: "image", bio: "wolves lie")
+
+Howl.create!(text: "What you talkin' bout Wolf!", wolf:Wolf.first)
+Howl.create!(text: "Hey guys", wolf:Wolf.second)
+Howl.create!(text: "Lolipops", wolf:Wolf.third)

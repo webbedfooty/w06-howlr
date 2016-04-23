@@ -8,8 +8,8 @@ class MakeInitialModels < ActiveRecord::Migration
 
     create_table :howls do |t|
       t.string :text, null: false
-      t.string :image, null: false
-      t.integer :wolf_id
+      t.string :image
+      t.integer :wolf_id, null: false
       t.integer :likes
       t.timestamps :created_at
       t.timestamps :updated_at
